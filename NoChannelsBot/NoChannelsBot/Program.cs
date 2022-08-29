@@ -8,8 +8,8 @@ namespace NoChannelsBot
 {
     class Program
     {
-        private static string token { get; set; } = "5686170940:AAFzWxhvdh1gpOXLzKxsibKSEUNWDeorRL8";
-        private static long botId { get; set; } = 5686170940;
+        private static string token { get; set; } = "your token";
+        private static long botId { get; set; } = 1234567890; //past bot id
         private static TelegramBotClient bot;
 
         static void Main(string[] args)
