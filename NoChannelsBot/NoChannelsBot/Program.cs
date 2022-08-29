@@ -30,7 +30,7 @@ namespace NoChannelsBot
             {
                 if (msg.NewChatMembers != null)
                 {
-                    if (msg.NewChatMembers[0].Id == 5686170940)
+                    if (msg.NewChatMembers[0].Id == botId)
                     {
                         await bot.SendTextMessageAsync(chatId: msg.Chat.Id, "Thanks for using!\nFor stable work promote me with right \"Delete messages\"");
                     }
