@@ -1,4 +1,4 @@
-# NoChannelTelegram
+# NoChannelTelegram - Not actual!
 Open source code on C# for deleting messages by anonymous channels.
 
 
