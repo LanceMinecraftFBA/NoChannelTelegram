@@ -50,7 +50,7 @@ namespace NoChannelsBot
 
                 if (msg.From.Id == msg.Chat.Id)
                 {
-                    await bot.SendTextMessageAsync(chatId: msg.Chat.Id, "I'm bot for deleting message from channels", replyMarkup: new InlineKeyboardMarkup(InlineKeyboardButton.WithUrl("Add in chat", "http://t.me/AntiAnonimBot?startgroup=start&admin=delete_messages")));
+                    await bot.SendTextMessageAsync(chatId: msg.Chat.Id, "I'm bot for deleting message by channels", replyMarkup: new InlineKeyboardMarkup(InlineKeyboardButton.WithUrl("Add in chat", "http://t.me/AntiAnonimBot?startgroup=start&admin=delete_messages")));
                 }
             }
         }
